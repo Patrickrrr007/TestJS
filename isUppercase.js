@@ -5,11 +5,12 @@ function isUpperCase(str) {
     return false;
   }
 
-  if (str[0] == str[0].toUpperCase()) {
-    return true;
-  } else {
-    return false;
-  }
+  // if (str[0] == str[0].toUpperCase()) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+  return str[0] == str[0].toUpperCase();
 }
 console.log(isUpperCase("ABCD")); // returns true
 console.log(isUpperCase("")); // returns false
