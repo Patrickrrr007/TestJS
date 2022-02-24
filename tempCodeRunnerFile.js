@@ -1,2 +1,5 @@
-position("abcd"); // prints -1
-position("AbcD"); // prints A 0
+function findSmallCount(str) {
+//   for (let i = 0; i <= str.length; i++) {
+//       console.log(str[i]);
+//   }
+// }
