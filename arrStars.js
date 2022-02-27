@@ -16,4 +16,4 @@ function stars(n) {
   }
 }
 // stars(5);
-stars(1);
+stars(6);
